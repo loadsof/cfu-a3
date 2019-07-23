@@ -2,8 +2,17 @@
     box-sizing: border-box;
 }
 
+img,
+iframe,
+video,
+audio {
+    max-width: 100%;
+}
+
+
 body {
     background-color: yellow; 
+    background-size: cover;
 
     font-family:  Helvetica, arial, sans-serif;
 }
@@ -11,10 +20,10 @@ body {
 main {
    background-color:  #ffffff;
    
-   padding: 20px; 
+   padding: 50px; 
 
 }
-
+/* navigation */ 
 nav { 
 background-color: #ffffff
 
@@ -27,4 +36,19 @@ nav ul {
 
 }
 
-/* navigation */ 
+/* General Layout Stuff */
+.col-layout {
+    
+}
+
+@media screen and (min-width: 800px) {
+    .col-layout {
+        background-color:yellow;
+
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 100px;
+
+        
+    }
+}
