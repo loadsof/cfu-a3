@@ -1,3 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: yellow; 
+
+    font-family:  Helvetica, arial, sans-serif;
 }
+
+main {
+   background-color:  #ffffff;
+   
+   padding: 20px; 
+
+}
+
+nav { 
+background-color: #ffffff
+
+}
+
+nav ul {
+    display: flex; 
+    justify-content: space-around; 
+    list-style: none; 
+
+}
+
+/* navigation */ 
