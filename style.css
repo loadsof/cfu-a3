@@ -11,7 +11,7 @@ audio {
 
 
 body {
-    background-color: yellow; 
+    background-color: #FDF7C2; 
     background-size: cover;
 
     font-family:  Helvetica, arial, sans-serif;
@@ -50,5 +50,22 @@ nav ul {
         grid-gap: 100px;
 
         
+    }
+}
+
+/* components */
+.component {
+    margin-bottom: 40px;
+    background-color: #FDF7C2; 
+    padding: 40px;
+    max-width: 600px;
+}
+
+@media screen and (min-width: 800px) {
+
+    .module-container {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 50px;
     }
 }
