@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background: #FDF6C5
+}
+
+
 img,
 iframe,
 video,
