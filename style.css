@@ -11,10 +11,11 @@ audio {
 
 
 body {
-    background-color: #FDF7C2; 
+    background-color: #2E3561; 
     background-size: cover;
 
     font-family:  Helvetica, arial, sans-serif;
+    
 }
 
 main {
@@ -37,6 +38,17 @@ nav ul {
 }
 
 /* General Layout Stuff */
+
+
+/* global header*/
+
+.site-name {
+    font-size: 32px;
+    font-weight: thin;
+    color: #ffffff
+}
+
+
 .col-layout {
     
 }
@@ -56,7 +68,7 @@ nav ul {
 /* components */
 .component {
     margin-bottom: 40px;
-    background-color: #FDF7C2; 
+    background-color: #ffffff; 
     padding: 40px;
     max-width: 600px;
 }
@@ -69,3 +81,4 @@ nav ul {
         grid-gap: 50px;
     }
 }
+
