@@ -120,6 +120,7 @@ nav {
 padding-top: 10px;
 padding-bottom: 10px;
 
+
 }
 
 nav a {
@@ -127,6 +128,7 @@ nav a {
     font-size: 20px;
     text-decoration: none;
     transition: 0.4s;
+    border-bottom: 1px dotted #FDF6C5;
 }
 nav a:hover {
     color: #FDF6C5;
