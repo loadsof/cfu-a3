@@ -84,9 +84,9 @@ p {
 }
 
 @font-face {
-    font-family: 'Syne-Italic';
-    src: url('Syne-Italic.eot') format('embedded-opentype');
-    src: url('Syne-Italic.woff') format('woff');
+    font-family: 'syne-regualar';
+    src: url('syne-italic-webfont.woff2') format('woff2'),
+         url('syne-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
   }
@@ -107,6 +107,7 @@ h3 {
     font-size: 40px;
     font-family: 'Syne-Regular', sans-serif;
     color: #fff;
+    font-weight: 500
 }
 
 h4 {
@@ -119,6 +120,7 @@ h4 {
 nav { 
 padding-top: 10px;
 padding-bottom: 10px;
+font-family: 'syne-regular', sans-serif;
 
 
 }
